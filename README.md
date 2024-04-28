@@ -1,35 +1,36 @@
-Bulk Mailer: Effortless Bulk Email Sending
+# Bulk Mailer
 
-** Say goodbye to repetitive emailing!** Bulk Mailer is a user-friendly application that lets you send bulk emails with just a few clicks.
+## Introduction
 
-This project simplifies the entire email sending process, saving you time and effort.
+Bulk Mailer is a Python-based tool designed to simplify the process of sending bulk emails with just one click. It provides a streamlined solution for automating email campaigns, eliminating the need for manual intervention.
 
-Key Features:
+## Features
 
-    One-Click Sending: No more manually opening Gmail and copying content! Bulk Mailer streamlines the process for ultimate ease of use.
-    Customizable Sender Name: Take control of your sender identity by specifying a custom name, independent of your Gmail account name.
-    Seamless Integration: Bulk Mailer works seamlessly with your existing email infrastructure.
+- **Effortless Email Sending**: Send bulk emails seamlessly without the hassle of manual copying and pasting.
+- **Custom Sender Name**: Customize the sender name independently of your Gmail account name for a personalized touch.
+- **User-Friendly Interface**: Intuitive interface for a smooth user experience.
 
-Getting Started
+## How to Use
 
-This section provides instructions on how to use Bulk Mailer:
+1. **Clone Repository**: Clone this repository to your local machine using `git clone https://github.com/sesiii/Bulk_Mailer.git`.
 
-    Download: Clone or download the repository from GitHub.
-    Prerequisites: Ensure you have Python and necessary libraries installed (instructions to be added in the Installation section).
-    Run the Application: Follow the instructions (to be added in the Running the Application section) to launch Bulk Mailer.
-    Configure Settings:
-        Enter your Gmail account email and password (secure storage methods to be implemented).
-        Select a TXT file containing your desired email body content.
-        Choose a CSV file with the list of email addresses for your recipients.
-    Send Emails: Click the designated button to send your bulk emails effortlessly.
+2. **Install Dependencies**: Ensure you have Python installed on your machine. Navigate to the project directory and run `pip install -r requirements.txt` to install the necessary dependencies.
 
-Additional Information
+3. **Run the Application**: Execute the `bulk_mailer.py` script by running `python bulk_mailer.py` in your terminal.
 
-    Installation (instructions to be added here, including any dependencies)
-    Running the Application (instructions to be added here)
-    Contributing (guidelines for those who want to contribute to the project)
-    License (specify the license under which your code is released)
+4. **Enter Gmail Credentials**: Provide your Gmail account email ID and password when prompted.
 
-Psst! This project is under development, so stay tuned for exciting future updates!
+5. **Select Email Body**: Choose the email body file (in TXT format) containing the content of your email.
 
-Feel free to reach out with any questions or suggestions!
+6. **Select Recipients**: Choose the recipients file (in CSV format) containing the email addresses of recipients.
+
+7. **Click Send**: Sit back and relax as your emails are sent out effortlessly.
+
+## Contributions
+
+Contributions are welcome! If you have any suggestions for improvements or bug fixes, feel free to submit an issue or a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
